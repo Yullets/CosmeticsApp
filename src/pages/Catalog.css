@@ -1,0 +1,72 @@
+main.catalog {
+
+}
+
+.headClass {
+    padding: 20px;
+    text-align: center;
+}
+
+h2.color {
+    color: #3f6f8d;
+}
+
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: center;*/
+    overflow: hidden;
+}
+
+.productItem {
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.productItem img {
+    aspect-ratio: 1;
+    width: 100%;
+    object-fit: cover;
+}
+
+.catalogText {
+    color: #3f6f8d;
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section div button {
+    background: #3f6f8d;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003d80;
+}
+
+@media (max-width: 800px) {
+    .productGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .productGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
