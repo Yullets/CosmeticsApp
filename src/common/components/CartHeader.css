@@ -1,0 +1,22 @@
+.cartHeader {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+    background: #3f6f8d;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    column-gap: 30px;
+    margin-bottom: 5px;
+
+    @media (max-width: 600px) {
+        height: 1px;
+        padding: 0;
+        & > * {
+            display: none;
+        }
+    }
+}
+
+.headerTitle {
+    grid-column-start: 2;
+}

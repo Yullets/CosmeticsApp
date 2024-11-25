@@ -30,7 +30,7 @@ header nav ul {
 
 header nav ul li {
     margin-right: 30px;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 header nav ul li a {
@@ -40,4 +40,9 @@ header nav ul li a {
 
 header nav ul li a:hover {
     border-bottom: 2px solid black;
+}
+
+header .shopCartButton {
+    cursor: pointer;
+    color: midnightblue;
 }

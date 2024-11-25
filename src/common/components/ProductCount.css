@@ -1,0 +1,35 @@
+.count {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.countBox {
+    width: 40px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.countInput::-webkit-inner-spin-button,
+.countInput::-webkit-outer-spin-button {
+    appearance: none;
+}
+
+
+.countControls {
+    display: flex;
+    flex-direction: column;
+}
+
+.countInput {
+    max-width: 100%;
+    padding-top: 4px;
+}
+
+.countUp {
+    all: unset;
+}
+
+.countDown {
+    all: unset;
+}

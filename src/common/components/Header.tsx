@@ -1,4 +1,5 @@
 import './Header.css'
+import { FaShoppingBasket } from "react-icons/fa";
 
 function Header() {
     return (
@@ -14,7 +15,7 @@ function Header() {
                 <ul>
                     <li><a href="/catalog">Каталог</a></li>
                     <li><a href="/login">Аккаунт</a></li>
-                    <li><a href="#">Корзина</a></li>
+                    <li><a href ="/cart"><FaShoppingBasket className="shopCartButton"/></a></li>
                 </ul>
             </nav>
         </header>

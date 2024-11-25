@@ -13,7 +13,7 @@ function Login() {
                         <label htmlFor="password">Пароль:</label>
                         <input type="password" id="password" name="password" required/>
 
-                        <button type="submit">Войти</button>
+                        <button className="enterButton" type="submit">Войти</button>
                     </form>
                     <p className={"login"}>Нет аккаунта? <a href="/registration">Зарегистрируйтесь здесь</a></p>
                 </div>

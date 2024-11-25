@@ -1,0 +1,28 @@
+.cartFooter {
+    padding: 19px 0;
+    display: grid;
+    grid-template-columns: 5fr 3fr 4fr;
+    background: #3f6f8d;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    column-gap: 30px;
+
+    @media (max-width: 600px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.footerCount {
+    grid-column-start: 2;
+
+    @media (max-width: 600px) {
+        grid-column-start: 1;
+    }
+}
+
+.footerPrice {
+    grid-column-start: 3;
+    text-align: left;
+    margin-left: -10px;
+}

@@ -1,0 +1,34 @@
+.sectionCart {
+    padding: 0 0 50px;
+}
+
+.header {
+    margin-bottom: 5px;
+}
+
+.cartBody {
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3f6f8d;
+}
+
+.cartContainer {
+
+}
+
+.cart {
+    margin: 0 auto;
+    width: 70%;
+}

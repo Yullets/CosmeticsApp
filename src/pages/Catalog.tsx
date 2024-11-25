@@ -16,7 +16,7 @@ function Catalog() {
                                 </div>
                                 <div className="catalogText">{product.name}</div>
                                 <p>{`${product.price} руб.`}</p>
-                                <div>
+                                <div className="buyButton">
                                     <button>Купить</button>
                                 </div>
                             </div>

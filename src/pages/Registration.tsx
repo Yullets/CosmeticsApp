@@ -18,7 +18,7 @@ function Registration() {
                     <label htmlFor="confirm-password">Подтверждение пароля:</label>
                     <input type="password" id="confirm-password" name="confirm-password" required/>
 
-                    <button type="submit">Зарегистрироваться</button>
+                    <button className="enterButton" type="submit">Зарегистрироваться</button>
                 </form>
                 <p>Уже есть аккаунт? <a href="/login">Авторизуйтесь здесь</a></p>
             </div>
