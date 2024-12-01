@@ -137,33 +137,6 @@ function CartBody() {
 
 export default CartBody;
 
-// const products = [
-//     {
-//         id: 1,
-//         img: 'https://static.tildacdn.com/tild3065-3438-4861-b639-626336353333/22__.jpg',
-//         title: 'Ароматическая свеча/Scented candle',
-//         count: 1,
-//         price: 11000,
-//         priceTotal: 11000
-//     },
-//     {
-//         id: 2,
-//         img: 'https://static.tildacdn.com/tild3863-3735-4262-b130-356264633430/20__.jpg',
-//         title: 'Бутылка для воды/Bottle for water',
-//         count: 2,
-//         price: 2000,
-//         priceTotal: 4000
-//     },
-//     {
-//         id: 3,
-//         img: 'https://static.tildacdn.com/tild3863-3735-4262-b130-356264633430/20__.jpg',
-//         title: 'Бутылка для воды/Bottle for water',
-//         count: 1,
-//         price: 2000,
-//         priceTotal: 2000
-//     }
-// ]
-
 interface ProductDto {
     id: number;
     name: string;
